@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>/* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            background-image: ./macbackground.jpg;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        header {
+            background-color:lightslategray;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 36px;
+        }
+        
+        header p {
+            font-size: 18px;
+        }
+        
+        nav ul {
+            list-style: none;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #f5168d;
+        }
+        
+        section {
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .project {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        /* Your existing CSS styles */
+
+/* Additional styles for skills section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Additional styles for interests section */
+#interests p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+/* Additional styles for contact form */
+#contact form input,
+#contact form textarea,
+#contact form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#contact form button {
+    background-color: #f5168d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #d40f7b;
+}
+
+        </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SomaSekhar</h1>
+            <p>Web Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a passionate web developer with experience in creating responsive and user-friendly websites.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills And Abilities</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Problem Solving</li>
+                <li>Team Work</li>
+                <li>LeaderShip</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="interests">
+        <div class="container">
+            <h2>Interests</h2>
+            <p>In my free time, I enjoy reading, hiking, and learning new technologies.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
